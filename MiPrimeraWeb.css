@@ -1,0 +1,80 @@
+h1 {
+    color: #000;
+    text-align: center;
+
+}
+body{
+    background: white;
+}
+body div p{
+    text-align: center;
+}
+footer{
+    background-color: rgb(26, 23, 18);
+    
+}
+footer p{
+
+    color: aliceblue;
+    text-align: center;
+}
+div{
+    background-color: rgb(20, 115, 179);
+}div p {
+    color: aliceblue;
+}
+img{
+    margin-bottom: 5px;
+}
+/* en esta parte de aca se hacen los estilos de rotacion y armado de la img y el tamaño */
+img{
+    width: 100px;
+    height: auto;
+}
+img:hover{
+    -webkit-transform: rotatex(360deg);
+    transition: 2s ease-in-out;
+    -webkit-border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 15px 15px rgb(96, 182, 204) ;
+} 
+/* esta parte inclusive */
+/* parte del nav la img */
+.box{
+    width: 50px;
+    height: 50px;
+    background-image: url(../matiba/imagenes/ffxv.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.brand{
+    margin-left: 5%;
+    /* line-height: 80px; */
+}
+.brand a{
+    color: rgb(61, 37, 199);
+    font-size: 30px;
+}
+nav ul{
+    float: right;
+    margin-right: 5% ;
+}
+nav ul il{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: rgb(235, 226, 219);
+    font-size: 25px;
+}
+.brand img{
+    width: 20px;
+    height: 20px;
+}
+h2 span{
+    color: #bf2424;
+
+}h2{
+    color: #FAFAFA;
+}
